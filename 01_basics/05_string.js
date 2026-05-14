@@ -20,5 +20,5 @@ const gameName = new String("Kuldeep");
 const newString = gameName.substring(0, 3);
 console.log(newString);
 
-const anotherString = gameName.slice(-2, 4);
-console.log(anotherString);
+// const anotherString = gameName.slice(-2, 4);
+// console.log(anotherString);
