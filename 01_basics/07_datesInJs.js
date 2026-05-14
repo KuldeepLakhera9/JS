@@ -19,3 +19,4 @@ console.log(myDate.getMinutes());
 console.log(myDate.getSeconds());
 console.log(myDate.getMilliseconds());
 console.log(myDate.getTime());
+
