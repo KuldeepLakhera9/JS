@@ -27,3 +27,10 @@ function loginUserMassage(username){
 }
 
 console.log(loginUserMassage())
+
+
+function calculateCartPrice(...num1){
+    return num1
+}
+
+console.log(calculateCartPrice(200,400,500))
