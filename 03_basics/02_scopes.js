@@ -48,3 +48,13 @@ const addTwo = function(num){
 
 addTwo(5);
 console.log(addTwo(5));
+
+
+// ++++++++++++++++++++++++++++++++ 
+
+
+console.log(addThree(5));
+
+const addThree = function(num){
+    return num + 3;
+}
