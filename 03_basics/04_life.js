@@ -5,14 +5,16 @@
 // }
 // chai();
 
-(function chai(){
+(function chai() {
     console.log(`DB Connected`);
 })();
 
-( ()=> {
+(() => {
     console.log(`DB Connected`);
 })();
 
-( (name)=> {
+((name) => {
     console.log(`DB Connected ${name}`);
 })("Kuldeep");
+
+//
