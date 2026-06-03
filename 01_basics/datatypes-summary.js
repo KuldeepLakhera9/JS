@@ -23,7 +23,6 @@ const myFunction = function () {
   console.log("Hello World");
 };
 
-
 //**************************************************************
 
 // Stack (Primitive), Heap (Non-Primitive)
@@ -38,13 +37,14 @@ console.log(myName);
 console.log(anotherName);
 
 let userOne = {
-    email: "user@gmail.com",
-    upi: "user@ybl"
-}
+  email: "user@gmail.com",
+  upi: "user@ybl",
+};
 
-let userTwo = userOne
+let userTwo = userOne;
 
-userTwo.email = "kuldeep@gmail.com"
+userTwo.email = "kuldeep@gmail.com";
 
 console.log(userOne.email);
+
 console.log(userTwo.email);
